@@ -7,6 +7,39 @@
 macOS 微信客户端插件
 ![](images/WeChatMainMockUp.png)
 
+# 如何安装
+
+> 注意: 执行脚本需要输入你的 Mac 密码
+
+## 必要步骤
+
+### 已安装 Git 的用户
+
+**Mac 上安装了 Git 的可以直接克隆仓库后执行脚本**
+
+```shell
+git clone https://github.com/X1a0He/X1a0HeWeChatPlugin.git
+cd X1a0HeWeChatPlugin
+sudo sh install.sh
+```
+
+### 未安装 Git 的用户
+
+- 下载完整仓库压缩包后解压到相关目录\
+  ![](images/Download-ZIP.png)
+
+- 完成解压后，打开`终端`\
+  ![](images/Terminal.png)
+
+执行以下命令
+
+```shell
+cd X1a0HeWeChatPlugin目录
+sudo sh install.sh
+```
+
+**等待安装完成即可**
+
 # 插件菜单预览
 
 ![](images/Menu.png)
@@ -46,10 +79,20 @@ macOS 微信客户端插件
 # 📝更新日志
 
 - 更多更新日志，请查看 [更新日志](change-log.md)
-- 2025.01.20 19:00 更新日志
+- 1.0.0 (2025.01.20) 19:00 更新日志
 
 ```text
-
+1. 推出 X1a0He WeChat Plugin v1.0.0
+2. 支持 防撤回他人消息
+3. 支持 防撤回自己消息
+4. 支持 显示红包转账详情
+5. 支持 聊天中的语音消息自动转成文字
+6. 支持 允许微信多开
+7. 支持 微信 UI 设置
+8. 支持 禁用日志上报
+9. 支持 禁用安全模式
+10. 支持 禁用检测更新
+11. 支持 禁用启动检查更新
 ```
 
 # 使用须知
