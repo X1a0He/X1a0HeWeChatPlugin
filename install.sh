@@ -26,6 +26,13 @@ then
   then
     rm -f "$WECHAT_EXECUTABLE_PATH"
     mv "$WECHAT_EXECUTABLE_ORIGINAL_PATH" "$WECHAT_EXECUTABLE_PATH"
+    echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 已恢复原始文件"
+    if pgrep -x "$APP_NAME" > /dev/null
+    then
+        killall "$APP_NAME"
+        open "$WECHAT_PATH"
+        echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 已重启微信"
+    fi
     exit 0
   else
     exit 0
@@ -61,6 +68,18 @@ sudo /usr/bin/codesign -f -s - --all-architectures --entitlements "./entitlement
 if [ $? -ne 0 ]; then
     echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 重新签名失败"
     exit 1
+fi
+
+# 重启微信
+if pgrep -x "$APP_NAME" > /dev/null
+then
+    echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 正在重启微信..."
+    killall "$APP_NAME"
+    open "$WECHAT_PATH"
+    if [ $? -ne 0 ]; then
+        echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 重启微信失败"
+        exit 1
+    fi
 fi
 
 echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 安装完成！"
