@@ -24,9 +24,16 @@ then
   read -r REPLY
   if [ "$REPLY" = "Y" ] || [ "$REPLY" = "y" ]
   then
+    echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 正在清除旧的插件配置..."
+    PLIST_PATH="$HOME/Library/Containers/com.tencent.xinWeChat/Data/Library/Preferences/com.tencent.xinWeChat.plist"
+    if [ -f "$PLIST_PATH" ]; then
+      for key in $(sudo -u $SUDO_USER defaults read com.tencent.xinWeChat | grep -o "X1a0HeWeChatPlugin_[^\"]*"); do
+        sudo -u $SUDO_USER defaults delete com.tencent.xinWeChat "$key"
+      done
+    fi
     rm -f "$WECHAT_EXECUTABLE_PATH"
-    mv "$WECHAT_EXECUTABLE_ORIGINAL_PATH" "$WECHAT_EXECUTABLE_PATH"
-    exit 0
+    cp "$WECHAT_EXECUTABLE_ORIGINAL_PATH" "$WECHAT_EXECUTABLE_PATH"
+    echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 旧版本已清理完成，开始安装新版本..."
   else
     exit 0
   fi
