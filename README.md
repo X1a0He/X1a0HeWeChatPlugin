@@ -117,6 +117,14 @@ sudo sh install.sh
 - 调整了部分配置项的默认值，现在微信多开功能和毛玻璃模式默认为不开启
 - 调整部分菜单栏状态切换时的提示
 
+<a href="https://star-history.com/#X1a0He/X1a0HeWeChatPlugin&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=X1a0He/X1a0HeWeChatPlugin&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=X1a0He/X1a0HeWeChatPlugin&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=X1a0He/X1a0HeWeChatPlugin&type=Date" />
+ </picture>
+</a>
+
 # 使用须知
 
 **1. 不接受任何新功能请求**\
