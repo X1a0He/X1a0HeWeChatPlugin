@@ -109,19 +109,17 @@ sudo sh install.sh
 
 - **更多更新日志，请查看 [更新日志](change-log.md)**
 
-### 1.0.1 (2025.01.23)
+### 1.0.2 (2025.01.24)
 
-- 修复了开关毛玻璃模式崩溃的问题
-- install.sh 脚本增加了删除旧的插件配置
-- 调整了强制深色模式的特性
-- 调整了部分配置项的默认值，现在微信多开功能和毛玻璃模式默认为不开启
-- 调整部分菜单栏状态切换时的提示
+- 修复了 MAS 版本启动崩溃的问题
+- 增加了 检查是否有新版本 的插件版本更新菜单项
+- 添加了 关闭插件更新提示 的菜单项
 
-<a href="https://star-history.com/#X1a0He/X1a0HeWeChatPlugin&Date">
+<a href="https://star-history.com/#X1a0He/X1a0HeWeChatPlugin&Timeline">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=X1a0He/X1a0HeWeChatPlugin&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=X1a0He/X1a0HeWeChatPlugin&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=X1a0He/X1a0HeWeChatPlugin&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=X1a0He/X1a0HeWeChatPlugin&type=Timeline&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=X1a0He/X1a0HeWeChatPlugin&type=Timeline" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=X1a0He/X1a0HeWeChatPlugin&type=Timeline" />
  </picture>
 </a>
 
