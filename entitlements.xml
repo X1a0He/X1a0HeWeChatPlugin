@@ -14,7 +14,11 @@
         <true/>
         <key>com.apple.security.device.camera</key>
         <true/>
+        <key>com.apple.security.device.usb</key>
+        <true/>
         <key>com.apple.security.device.microphone</key>
+        <true/>
+        <key>com.apple.security.files.bookmarks.app-scope</key>
         <true/>
         <key>com.apple.security.files.downloads.read-write</key>
         <true/>
@@ -26,10 +30,18 @@
         <true/>
         <key>com.apple.security.personal-information.location</key>
         <true/>
+        <key>com.apple.security.personal-information.photos-library</key>
+        <true/>
+        <key>com.apple.security.print</key>
+        <true/>
         <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
         <array>
             <string>com.tencent.xinWeChat-spks</string>
             <string>com.tencent.xinWeChat-spki</string>
+        </array>
+        <key>com.apple.security.temporary-exception.sbpl</key>
+        <array>
+            <string>(allow network-outbound (literal "/private/var/run/usbmuxd"))</string>
         </array>
     </dict>
 </plist>

@@ -64,7 +64,7 @@ fi
 
 # 重新签名
 echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 正在重新签名..."
-sudo /usr/bin/codesign -f -s - --all-architectures --entitlements "./entitlements.xml" "$WECHAT_EXECUTABLE_PATH"
+sudo /usr/bin/codesign -f -s - --all-architectures --deep --entitlements "./entitlements.xml" "$WECHAT_EXECUTABLE_PATH"
 if [ $? -ne 0 ]; then
     echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 重新签名失败"
     exit 1
