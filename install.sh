@@ -1,4 +1,8 @@
 #!/bin/bash
+echo ""
+echo "X1a0He WeChat Plugin 2.0 For WeChat 4.X 将在 2026.01.20 推出，敬请期待！"
+exit 1
+
 X1A0HE_WECHAT_PLUGIN_INSTALLER="X1a0He WeChat Plugin Installer"
 WECHAT_PATH="/Applications/WeChat.app"
 
