@@ -1,8 +1,4 @@
 #!/bin/bash
-echo ""
-echo "X1a0He WeChat Plugin 2.0 For WeChat 4.X 将在 2026.01.20 推出，敬请期待！"
-exit 1
-
 X1A0HE_WECHAT_PLUGIN_INSTALLER="X1a0He WeChat Plugin Installer"
 WECHAT_PATH="/Applications/WeChat.app"
 
@@ -11,7 +7,7 @@ then
   WECHAT_PATH="/Applications/微信.app"
   if [ ! -d "$WECHAT_PATH" ]
   then
-    echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 未找到微信路径，请先到微信官网下载微信"
+    echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 未找到目标路径，请先到微信官网下载微信"
     exit 1
   fi
 fi
@@ -68,7 +64,7 @@ fi
 
 # 重新签名
 echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 正在重新签名..."
-sudo /usr/bin/codesign -f -s - --all-architectures --deep --entitlements "./entitlements.xml" "$WECHAT_EXECUTABLE_PATH"
+sudo /usr/bin/codesign -f -s - --all-architectures --entitlements "./entitlements.xml" "$WECHAT_EXECUTABLE_PATH"
 if [ $? -ne 0 ]; then
     echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 重新签名失败"
     exit 1
