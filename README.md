@@ -14,9 +14,9 @@ macOS 客户端插件
 > ❌ 不会支持 MAS 版本\
 > ❌ 不会支持 Intel
 > 
-> MD5: 2db7c19bea41ce7ee5fbc8c3868a4df0\
-> SHA1: 86f1466a147d206fe37c9d73a6ba54b38fd6c05e\
-> SHA256: 2f688f5d54894f602f8ca85f9481bc8f5604c7842a5ad89acad1cbe6694a2882
+> MD5: c8f41d001bada34a2db9d13f6ce2acbd\
+> SHA1: 1afafefeb82569bb96ae81491ac884bad8230ad5\
+> SHA256: 828b29dce98aa9ff2ef87185a66cc30799b8bd48c5870a0df70ea18596a1600a
 
 |    版本    |  版本号  | 支持 | Arm | Intel | MAS |
 |:--------:|:-----:|:--:|:---:|:-----:|:---:|
