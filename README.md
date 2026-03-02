@@ -1,8 +1,8 @@
 # X1a0He Plugin 2 for macOS
 
 ![platform](https://img.shields.io/badge/platform-macos-blue.svg)
-[![release](https://img.shields.io/badge/release-v2.0.8-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
-![support](https://img.shields.io/badge/support-%204.1.7.55-blue.svg)
+[![release](https://img.shields.io/badge/release-v2.1.0-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
+![support](https://img.shields.io/badge/support-%204.1.7.56-blue.svg)
 
 macOS 客户端插件
 ![](images/WeChatMainMockUp.png)
@@ -18,12 +18,15 @@ macOS 客户端插件
 > SHA1: 8c993670c1a37ef63da4eda7fbb774715859317d\
 > SHA256: df454b1c2b2ef7f62df3b1712bd76c576cf1718f464a11b95654af6c4e5261d8
 
-|    版本    |  版本号  | 支持 | Arm | Intel | MAS |
-|:--------:|:-----:|:--:|:---:|:-----:|:---:|
-| 4.1.7.51 | 34754 | ✅  |  ✅  |   ❌   |  ❌  |
-| 4.1.7.52 | 34778 | ✅  |  ✅  |   ❌   |  ❌  |
-| 4.1.7.55 | 34817 | ✅  |  ✅  |   ❌   |  ❌  |
-| 4.1.7.56 | 34878 | ✅  |  ✅  |   ✅   |  ❌  |
+# 支持版本(点击版本或立即下载即可下载原版)
+[版本记录](https://github.com/X1a0He/X1a0HeWeChatPlugin/issues/43)
+
+|                                                版本                                                |  版本号  | 支持 | Arm | Intel | MAS | 下载原版                                                                                         |
+|:------------------------------------------------------------------------------------------------:|:-----:|:--:|:---:|:-----:|:---:|----------------------------------------------------------------------------------------------|
+|                                             4.1.7.51                                             | 34754 | ✅  |  ✅  |   ❌   |  ❌  |                                                                                              |
+|                                             4.1.7.52                                             | 34778 | ✅  |  ✅  |   ❌   |  ❌  |                                                                                              |
+| [4.1.7.55](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.7.55_34817.dmg) | 34817 | ✅  |  ✅  |   ❌   |  ❌  | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.7.55_34817.dmg) |
+| [4.1.7.56](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.7.56_34878.dmg) | 34878 | ✅  |  ✅  |   ✅   |  ❌  | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.7.56_34878.dmg)                                                                                         |
 
 # 目录
 
