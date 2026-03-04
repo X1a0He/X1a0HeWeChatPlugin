@@ -1,7 +1,7 @@
 # X1a0He Plugin 2 for macOS
 
 ![platform](https://img.shields.io/badge/platform-macos-blue.svg)
-[![release](https://img.shields.io/badge/release-v2.1.2-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
+[![release](https://img.shields.io/badge/release-v2.1.3-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
 ![support](https://img.shields.io/badge/support-%204.1.7.57-blue.svg)
 
 macOS 客户端插件
@@ -9,14 +9,14 @@ macOS 客户端插件
 
 
 > ✅ 已在以下环境中测试通过\
-> 💻 设备: M1 Max macOS Tahoe 26.4 Beta 2 (25E5218f)\
+> 💻 设备: M1 Max macOS Tahoe 26.4 Beta 3 (25E5223i)\
 > 📒 微信版本: 4.1.7.57(34888)\
 > ⚠️ 不一定会每个版本都支持 Intel\
 > ❌ 不会支持 MAS 版本
 > 
-> MD5: f5dd554ca0d42320595dfd6d61f3aab0\
-> SHA1: 4d85ac10b1d053db6c1f89b6b486a853b1689fb1\
-> SHA256: 63fd9101c30271507f2dce5c091fde83db63a942be512954c498d6192ec2dcb6
+> MD5: 6ebbc33e5025bb3def282f797d94d920\
+> SHA1: 23cc80a5ea4e044c74b6de94aebcf32819c943c5\
+> SHA256: 3308c3b9916dcc4232262f3f917dda3adedfc738af03ad8dac467d17e44e0ee9
 
 # 支持版本(点击版本或立即下载即可下载原版)
 [版本记录](https://github.com/X1a0He/X1a0HeWeChatPlugin/issues/43)
@@ -79,10 +79,9 @@ sudo sh install.sh
 
 - **更多更新日志，请查看 [更新日志](change-log.md)**
 
-### 2.1.2 (2026.03.04)
+### 2.1.3 (2026.03.04)
 
-1. 支持最新 4.1.7.57(34888)
-2. 修复了 Intel 机型下导致崩溃的问题
+1. 修复了 Intel 机型下点击截图、表情、发送文件导致崩溃的问题
 
 
 <a href="https://star-history.com/#X1a0He/X1a0HeWeChatPlugin&Timeline">
