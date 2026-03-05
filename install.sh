@@ -12,8 +12,21 @@ then
   fi
 fi
 
+WECHAT_VERSION=$(defaults read "$WECHAT_PATH/Contents/Info" CFBundleShortVersionString 2>/dev/null)
+echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 当前微信版本为：$WECHAT_VERSION"
 APP_NAME="WeChat"
 WECHAT_APP_PATH="$WECHAT_PATH/Contents/MacOS"
+SPECIAL_WECHAT_VERSION="4.1.8"
+IS_SPECIAL_WECHAT_VERSION=0
+version_gte() {
+  [ "$(printf '%s\n' "$1" "$2" | sort -V | head -n 1)" = "$2" ]
+}
+if [ -n "$WECHAT_VERSION" ] && version_gte "$WECHAT_VERSION" "$SPECIAL_WECHAT_VERSION"
+then
+  IS_SPECIAL_WECHAT_VERSION=1
+  APP_NAME="wechat.dylib"
+  WECHAT_APP_PATH="$WECHAT_PATH/Contents/Frameworks"
+fi
 WECHAT_EXECUTABLE_PATH="${WECHAT_APP_PATH}/${APP_NAME}"
 WECHAT_EXECUTABLE_ORIGINAL_PATH="${WECHAT_APP_PATH}/${APP_NAME}.original"
 
@@ -68,6 +81,16 @@ sudo /usr/bin/codesign -f -s - --all-architectures --entitlements "./entitlement
 if [ $? -ne 0 ]; then
     echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 重新签名失败"
     exit 1
+fi
+
+if [ "$IS_SPECIAL_WECHAT_VERSION" -eq 1 ]
+then
+    echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 正在对 MacOS/WeChat 重新签名..."
+    sudo /usr/bin/codesign -f -s - --all-architectures --entitlements "./entitlements.xml" "$WECHAT_PATH/Contents/MacOS/WeChat"
+    if [ $? -ne 0 ]; then
+        echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] MacOS/WeChat 重新签名失败"
+        exit 1
+    fi
 fi
 
 echo "[${X1A0HE_WECHAT_PLUGIN_INSTALLER}] 安装完成！"
