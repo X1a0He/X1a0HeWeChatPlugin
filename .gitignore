@@ -5,6 +5,5 @@
 build_pkg.sh
 Distribution.xml
 scripts
-entitlements.xml
 install.sh
 insert_dylib

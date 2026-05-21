@@ -1,24 +1,24 @@
 # X1a0He Plugin 2 for macOS
 
 ![platform](https://img.shields.io/badge/platform-macos-blue.svg)
-[![release](https://img.shields.io/badge/release-v2.4.1-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
-![support](https://img.shields.io/badge/support-%204.1.9.57-blue.svg)
+[![release](https://img.shields.io/badge/release-v2.4.2-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
+![support](https://img.shields.io/badge/support-%204.1.10.19-blue.svg)
 
 macOS 客户端插件
 ![](images/WeChatMainMockUp.png)
 
 
 > ✅ 已在以下环境中测试通过\
-> 💻 设备: M1 Max macOS Tahoe 26.5 Beta (25F5058e)\
-> 📒 微信版本: 4.1.9.57(38937)\
+> 💻 设备: M1 Max macOS Tahoe 26.5 Beta (25F5068a)\
+> 📒 微信版本: 4.1.10.19(39521)\
 > ❌ 不支持 Intel 版本\
 > ❌ 不支持 MAS 版本
 > 
-> MD5: 601223265a7ffdbbb3288ecc69878efc\
-> SHA1: 916554a0f32ac070972535183ffd0d765b76bf8c\
-> SHA256: 063bbbef19bb7a2e8601a1c9ab4db18b6381cd920e8f97a42a5cf971ba4124bf
+> MD5: 7271f51a8c83a4bad4a4e81777cd1c88\
+> SHA1: 4df5aae56942bb6f7c9d2df4ed734866b7b51bf9\
+> SHA256: 11c3f676c45d2901d7b3e8904f89d92825ab276fbf851e986fb492647fca2634
 > 
-> 安装包 pkg SHA 256: 94e98fd9d505ec25b1f052f03a300947045e3f1f0da1bd51bae2fbe50cf118f3
+> 安装包 pkg SHA 256: 6a30105abdfb5c49e9f000587f84d3cb41a4c9644a23a223013d2ce4bfaebd53
 
 # 支持版本(点击版本或立即下载即可下载原版)
 [版本记录](https://github.com/X1a0He/X1a0HeWeChatPlugin/issues/43)
@@ -60,6 +60,8 @@ macOS 客户端插件
 |  [4.1.9.55](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.9.55_38902.dmg)  | 38902 | ✅  |  ✅  |   ❌   |       -       | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.9.55_38902.dmg)  |
 |  [4.1.9.56](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.9.56_38926.dmg)  | 38926 | ✅  |  ✅  |   ❌   |       -       | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.9.56_38926.dmg)  |
 |  [4.1.9.57](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.9.57_38937.dmg)  | 38937 | ✅  |  ✅  |   ❌   | 2.4.0 / 2.4.1 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.9.57_38937.dmg)  |
+|  [4.1.9.58](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.9.58_38959.dmg)  | 38959 | ✅  |  ✅  |   ❌   |     2.4.2     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.9.58_38959.dmg)  |
+| [4.1.10.19](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.10.19_39521.dmg) | 39521 | ✅  |  ✅  |   ❌   |     2.4.2     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.10.19_39521.dmg) |
 
 
 # 目录
@@ -86,9 +88,10 @@ macOS 客户端插件
 
 - **更多更新日志，请查看 [更新日志](change-log.md)**
 
-### 2.4.1 (2026.05.18)
-- 修复了部分用户启动崩溃的问题
-- 修复了部分用户无法使用实验性功能的问题
+### 2.4.2 (2026.05.21)
+- 修复了 macOS 15.5 和部分 macOS 用户出现启动崩溃的问题
+- 支持 4.1.9.58(38959)
+- 支持 4.1.10.19(39521)
 
 <a href="https://star-history.com/#X1a0He/X1a0HeWeChatPlugin&Timeline">
  <picture>
@@ -103,6 +106,16 @@ macOS 客户端插件
 **1. 不接受任何新功能请求**
 
 # FAQ
+
+## pkg 出现安装失败？
+> 请先检查是否已完全退出微信
+
+安装插件需要完全退出微信
+
+> 已经完全退出了微信，但还是失败？
+
+可能是没安装开发者组件导致的，安装插件需要开发者组件\
+`command` + `空格`输入`终端`，回车后，在终端输入 `otool` 回车，激活开发者组件下载
 
 - **会封号吗？**
 
