@@ -21,7 +21,13 @@ macOS 客户端插件
 > 安装包 pkg SHA 256: f172ba6f0109c2a014b2ff9ebb52f77e37bbf7f60629904ac4113595f3649517
 
 # 支持版本(点击版本或立即下载即可下载原版)
-[版本记录](https://github.com/X1a0He/X1a0HeWeChatPlugin/issues/43)
+## 最新支持版本
+|                                                 版本                                                 |  版本号  | 支持 | Arm | Intel |    需要插件版本     | 下载原版                                                                                          |
+|:--------------------------------------------------------------------------------------------------:|:-----:|:--:|:---:|:-----:|:-------------:|-----------------------------------------------------------------------------------------------|
+| [4.1.10.52](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.10.52_39910.dmg) | 39910 | ✅  |  ✅  |   ❌   |     2.4.6     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.10.52_39910.dmg) |
+## 历史支持版本
+<details>
+<summary>点击展开查看支持的版本</summary>
 
 |                                                 版本                                                 |  版本号  | 支持 | Arm | Intel |    需要插件版本     | 下载原版                                                                                          |
 |:--------------------------------------------------------------------------------------------------:|:-----:|:--:|:---:|:-----:|:-------------:|-----------------------------------------------------------------------------------------------|
@@ -71,8 +77,8 @@ macOS 客户端插件
 | [4.1.10.49](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.10.49_39892.dmg) | 39892 | ✅  |  ✅  |   ❌   |     2.4.6     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.10.49_39892.dmg) |
 | [4.1.10.50](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.10.50_39893.dmg) | 39893 | ✅  |  ✅  |   ❌   |     2.4.6     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.10.50_39893.dmg) |
 | [4.1.10.51](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.10.51_39907.dmg) | 39907 | ✅  |  ✅  |   ❌   |     2.4.6     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.10.51_39907.dmg) |
-| [4.1.10.52](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.10.52_39910.dmg) | 39910 | ✅  |  ✅  |   ❌   |     2.4.6     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.10.52_39910.dmg) |
 
+</details>
 
 # 目录
 
