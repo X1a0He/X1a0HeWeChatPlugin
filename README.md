@@ -1,30 +1,30 @@
 # X1a0He Plugin 2 for macOS
 
 ![platform](https://img.shields.io/badge/platform-macos-blue.svg)
-[![release](https://img.shields.io/badge/release-v2.8.3-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
-![support](https://img.shields.io/badge/support-%204.1.13.51-blue.svg)
+[![release](https://img.shields.io/badge/release-v2.9.0-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
+![support](https://img.shields.io/badge/support-%204.1.15.10-blue.svg)
 
 macOS 客户端插件
 ![](images/WeChatMainMockUp.png)
 
 
 > ✅ 已在以下环境中测试通过\
-> 💻 设备: M1 Max macOS 27 Golden Gate Beta (26A5421a)\
-> 📒 微信版本: 4.1.13.51(269619)\
+> 💻 设备: M1 Max macOS 27 Golden Gate (26A428)\
+> 📒 微信版本: 4.1.15.10(270090)\
 > ❌ 不支持 Intel 版本\
 > ❌ 不支持 MAS 版本
 > 
-> MD5: 50c268216266e7f32f9586727365a330\
-> SHA1: e34cf9212c77f904542160c42bc3e4a28365d664\
-> SHA256: bf4323a79ca7060d8a2aeb30f7cc5880a5eea16346b5784830361aff6aec1c61
+> MD5: c7638d4a7d7dcef5f5f691b1019969a5\
+> SHA1: b50a9effc6efa39ca1f31fedb8d13edb78d5ab2f\
+> SHA256: 2cc3e3b0ca8bc65a369c1074f2aa7cc7f54eb8572cb18e7f5e17fbc1687c3bb2
 > 
-> 安装包 pkg SHA 256: f8f5c870de440e910470f6aed0d1ce4635dffda5c200709b7113859fe58fd7e7
+> 安装包 pkg SHA 256: 10ac8ebe733b1caa0d1425be9247243d564d5282638bc46a07a02fa395cb230e
 
 # 支持版本(点击版本或立即下载即可下载原版)
 ## 最新支持版本
 |   版本    | 版本号 | 支持 | 需要插件版本 | 下载原版                                                                                           |
 |:---------:|:------:|:----:|:------------:|----------------------------------------------------------------------------------------------------|
-| 4.1.13.51 | 269619 |  ✅  |    2.8.3     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.51_269619.dmg) |
+| 4.1.15.10 | 270090 |  ✅  |    2.9.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.10_270090.dmg) |
 
 ## 历史支持版本
 <details>
@@ -112,6 +112,20 @@ macOS 客户端插件
 | 4.1.13.10 | 269578 |  ✅  |     2.8.2     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.10_269578.dmg) |
 | 4.1.13.11 | 269579 |  ✅  |       -       | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.11_269579.dmg) |
 | 4.1.13.50 | 269618 |  ✅  |       -       | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.50_269618.dmg) |
+| 4.1.13.51 | 269619 |  ✅  |     2.8.3     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.51_269619.dmg) |
+| 4.1.13.56 | 269624 |  ✅  |     2.9.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.56_269624.dmg) |
+| 4.1.13.57 | 269625 |  ✅  |     2.9.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.57_269625.dmg) |
+| 4.1.13.58 | 269626 |  ✅  |     2.9.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.58_269626.dmg) |
+| 4.1.13.59 | 269627 |  ✅  |     2.9.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.59_269627.dmg) |
+| 4.1.13.60 | 269628 |  ✅  |     2.9.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.60_269628.dmg) |
+| 4.1.13.61 | 269629 |  ✅  |     2.9.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.61_269629.dmg) |
+| 4.1.13.62 | 269630 |  ✅  |     2.9.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.62_269630.dmg) |
+| 4.1.13.63 | 269631 |  ✅  |     2.9.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.13.63_269631.dmg) |
+| 4.1.15.4  | 270084 |  ✅  |     2.9.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.4_270084.dmg)  |
+| 4.1.15.5  | 270085 |  ✅  |     2.9.0     | [立即下载](https://dldir1.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.5_270085.dmg)    |
+| 4.1.15.6  | 270086 |  ✅  |     2.9.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.6_270086.dmg)  |
+| 4.1.15.8  | 270088 |  ✅  |     2.9.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.8_270088.dmg)  |
+| 4.1.15.9  | 270089 |  ✅  |     2.9.0     | [立即下载](https://dldir1.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.9_270089.dmg)    |
 
 </details>
 
@@ -127,8 +141,7 @@ macOS 客户端插件
   * [步骤](#步骤)
     * [使用 pkg 一键安装](#使用-pkg-一键安装)
 * [📝更新日志](#更新日志)
-    * [2.8.3 (2026.08.31)](#283-20260831)
-* [使用须知](#使用须知)
+    * [2.9.0 (2026.09.12)](#290-20260912)
 * [FAQ](#faq)
   * [pkg 出现安装失败？](#pkg-出现安装失败)
 * [插件菜单预览](#插件菜单预览)
@@ -147,12 +160,20 @@ macOS 客户端插件
 
 - **更多更新日志，请查看 [更新日志](change-log.md)**
 
-### 2.8.3 (2026.08.31)
-1. feat: 支持 4.1.13.51(269619)
-2. feat: 新增版本不匹配检测，现在检测到微信版本与插件支持版本不一致时将无法使用
-3. feat: 新增插件关于面板显示详细的微信版本号
-4. fix: 尝试修复群成员监控一系列的问题
-
+### 2.9.0 (2026.09.12)
+1. feat: 支持 4.1.13.56(269624) ~ 4.1.15.10(270090)
+2. fix: 修复新版微信核心组件延迟加载时，插件可能无法正常初始化的问题。
+3. feat: 新增“显示非好友共同群聊”功能，可在联系人资料中查看共同群聊数量。
+4. feat: 新增“退群提示成员可点击”功能，可从退群提示中直接打开成员资料卡。
+5. fix: 重写并优化群成员退出监控，减少重复提示、错误提示和遗漏提示的问题。
+6. fix: 优化群成员昵称识别和退群提示显示，提升提示消息的准确性与稳定性。
+7. fix: 重构防撤回处理流程，提升不同消息类型的防撤回效果，并减少重复处理。
+8. fix: 优化防撤回提示消息，改善重新编辑、消息重新加载及提示过期后的显示效果。
+9. fix: 优化被撤回图片、视频和文件的下载与自动转发，减少下载完成后未转发或重复转发的问题。
+10. fix: 优化撤回媒体下载的超时、失败回退和账号切换处理，避免切换账号后误发消息。
+11. fix: 优化文字、图片、视频和文件的原生发送流程，提升发送稳定性。
+12. fix: 修复原生文件及媒体发送后的资源未正确释放问题，提升长时间使用时的稳定性。
+13. fix: 优化微信多开及登录状态隔离，减少多开失败、登录状态互相影响等问题。
 
 <a href="https://www.star-history.com/?repos=X1a0He%2FX1a0HeWeChatPlugin&type=date&legend=top-left">
  <picture>
@@ -161,10 +182,6 @@ macOS 客户端插件
    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=X1a0He/X1a0HeWeChatPlugin&type=date&legend=top-left&sealed_token=A3hjLThFM2P089BGXUCZYY-myd5Vz3Pjjni7qWuzSWKb4ZKQW_jD3gAF3MTDiyjthZKC9Uxgol9o20JHlFnwzB3LjVF2yDx_8c0SfAUOY4ilASxzUhBx9Q" />
  </picture>
 </a>
-
-# 使用须知
-
-**1. 不接受任何新功能请求**
 
 # FAQ
 
@@ -223,9 +240,11 @@ macOS 客户端插件
       - [x] 转发文件
     - [x] 消息撤回转发目标设置
 - [x] 允许微信多开 ⚠️请慎用该功能
-- [x] 群聊监控
+- [x] 群聊功能
   - [x] 群成员退出监控
   - [x] 设置退群监控短语
+  - [x] 退群提示成员可点击
+  - [x] 显示非好友共同群聊
 - [x] 禁用日志上报
 - [x] 禁用安全模式
 - [x] 禁用检测更新
