@@ -1,30 +1,30 @@
 # X1a0He Plugin 2 for macOS
 
 ![platform](https://img.shields.io/badge/platform-macos-blue.svg)
-[![release](https://img.shields.io/badge/release-v2.11.0-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
-![support](https://img.shields.io/badge/support-%204.1.15.52-blue.svg)
+[![release](https://img.shields.io/badge/release-v2.12.0-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
+![support](https://img.shields.io/badge/support-%204.1.15.72-blue.svg)
 
 macOS 客户端插件
 ![](images/WeChatMainMockUp.png)
 
 
 > ✅ 已在以下环境中测试通过\
-> 💻 设备: M1 Max macOS 27.2 Golden Gate Beta (26B5091g)\
-> 📒 微信版本: 4.1.15.52(270132)\
+> 💻 设备: M1 Max macOS 27.2 Golden Gate Beta (26B5101f)\
+> 📒 微信版本: 4.1.15.72(270152)\
 > ❌ 不支持 Intel 版本\
 > ❌ 不支持 MAS 版本
 > 
-> MD5: ff8dbb06271bf767229c958bea391a90\
-> SHA1: f5590f9527b7d89ce0f7d2f5c394a950370b624b\
-> SHA256: d934863047c7dcbfd9c474e93c1ebc493fcada6167dbc2dd1e465741dcdd5762
+> MD5: 4c2efd897fe5bde53bff1763c0f8b375\
+> SHA1: 9a905a17932be4d2d1dbf61f259c59f22baf6d05\
+> SHA256: 015a26ce21c6076beee906e7f3bdc4ce9777719f1e4527e2ea70fb2b702554a1
 > 
-> 安装包 pkg SHA 256: b55a7e1b933542fd5e677c07c6f31fc014b5f7a1c4141c7afeb6be6b461ae92e
+> 安装包 pkg SHA 256: a80f717f4b76315ef83dcef5b7c1f8a0914e700c5f57a594e0a26a279bd8c78c
 
 # 支持版本(点击版本或立即下载即可下载原版)
 ## 最新支持版本
 |   版本    | 版本号 | 支持 | 需要插件版本 | 下载原版                                                                                           |
 |:---------:|:------:|:----:|:------------:|----------------------------------------------------------------------------------------------------|
-| 4.1.15.52 | 270132 |  ✅  |    2.11.0    | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.52_270132.dmg) |
+| 4.1.15.72 | 270152 |  ✅  |    2.12.0    | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.72_270152.dmg) |
 
 ## 历史支持版本
 <details>
@@ -139,6 +139,10 @@ macOS 客户端插件
 | 4.1.15.21 | 270101 |  ✅  |    2.11.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.21_270101.dmg) |
 | 4.1.15.22 | 270102 |  ✅  |    2.11.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.22_270102.dmg) |
 | 4.1.15.51 | 270131 |  ✅  |    2.11.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.51_270131.dmg) |
+| 4.1.15.52 | 270132 |  ✅  |    2.11.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.52_270132.dmg) |
+| 4.1.15.53 | 270133 |  ✅  |       -       | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.53_270133.dmg) |
+| 4.1.15.54 | 270134 |  ✅  |       -       | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.54_270134.dmg) |
+| 4.1.15.55 | 270135 |  ✅  |       -       | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.15.55_270135.dmg) |
 
 </details>
 
@@ -154,7 +158,7 @@ macOS 客户端插件
   * [步骤](#步骤)
     * [使用 pkg 一键安装](#使用-pkg-一键安装)
 * [📝更新日志](#更新日志)
-    * [2.10.0 (2026.09.19)](#2100-20260919)
+    * [2.12.0 (2026.10.13)](#2120-20261013)
 * [FAQ](#faq)
   * [pkg 出现安装失败？](#pkg-出现安装失败)
 * [插件菜单预览](#插件菜单预览)
@@ -173,27 +177,16 @@ macOS 客户端插件
 
 - **更多更新日志，请查看 [更新日志](change-log.md)**
 
-### 2.11.0 (2026.10.01)
+### 2.12.0 (2026.10.13)
 
-1. feat: 完善微信 270101、270102、270131、270132 的兼容适配，保留旧版支持。
-2. feat: 新增“复读+1”功能，可通过消息右键菜单快速复读到当前会话。
-3. feat: 新增语音复读与语音转发，支持复读到当前会话，或选择好友、群聊转发。
-4. feat: 新增动画表情快速导出，支持将微信专用格式转换为 GIF 保存。
-5. feat: 新增“不限制聊天转发数量”开关。
-6. feat: 支持置顶聊天折叠入口始终显示，并可选择放在顶部或底部，设置实时生效。
-7. feat: 发现页和侧边栏隐藏设置支持即时生效，无需重启微信。
-8. feat: 通讯录及全部好友、群聊选择器改用原生读取，不再直接查询 contact.db；统一分类折叠、分组排序、全量加载、搜索及数量显示。
-9. feat: 新增自动领取红包与自动收款，支持固定、随机、模拟人工延时，以及黑白名单、好友和群聊自定义规则、成功次数统计。
-10. feat: 支持自动领取自己发送的群红包，默认关闭；优先使用群规则，其次使用本人好友规则，最后使用全局设置。
-11. feat: 新增红包、转账接收提醒及领取、收款结果提醒，本机通知与文字转发可独立开关，并分别设置转发目标。
-12. feat: 支持自定义通知标题、正文及转发内容，提供占位符说明、实时预览和恢复默认，并统一接入提示前缀设置。
-13. feat: 红包领取结果支持显示实领金额；优化消息来源展示，群聊统一显示为“群名•发送人”。
-14. feat: 新增语音功能使用说明与免责声明，以及自动领取红包、自动收款的账号风险确认提示。
-15. feat: 统一撤回与退群提示的名称解析和模板规则，支持按备注、昵称、微信号、wxid 显示及兜底，撤回提示支持点击打开资料卡。
-16. feat: 撤回用户支持直接点击查看资料卡
-17. fix: 改进撤回消息背景匹配及刷新，减少消息视图复用导致的背景错位，并支持随历史消息加载恢复标记。
-18. fix: 修复置顶聊天折叠设置菜单无法点击、退群提示开关切换后漏报，以及语音转发选择窗口可能触发崩溃的问题。
-19. fix: 完善支付操作的账号切换校验与重复处理防护；响应无法确认时显示“结果未知”并暂停后续自动操作，避免误报失败
+1. feat: 支持 4.1.15.72(270152)
+2. feat: 重做撤回消息转发
+3. feat: 细分撤回转发类型开关，支持独立控制文字、图片、视频、文件、语音、表情、位置、名片、链接、音乐、小程序、视频号、引用(仅转发引用后的文字)、合并消息及其他类型；
+4. feat: 新增撤回语音转发。
+5. feat: 新增群主、管理员身份标识，显示于群聊消息头像下方，支持分别开启、自定义颜色及恢复默认颜色。
+6. feat: 修复语音转发和部分黑白名单选取时出现的【原生通讯录包含无效的 UTF-8 字段】问题，改为原生转发窗口实现。
+7. feat: 自动领取红包新增群聊、私聊范围开关，支持分别设置不领取，并保留自定义规则优先级，红包领取与转账收款规则新增删除操作。
+8. feat: 新增屏蔽朋友圈设置，发现页内容全部隐藏后可自动隐藏侧边栏发现入口。
 
 <a href="https://www.star-history.com/?repos=X1a0He%2FX1a0HeWeChatPlugin&type=date&legend=top-left">
  <picture>
@@ -258,6 +251,16 @@ macOS 客户端插件
       - [x] 转发图片
       - [x] 转发视频
       - [x] 转发文件
+      - [x] 转发语音
+      - [x] 转发表情
+      - [x] 转发位置
+      - [x] 转发名片
+      - [x] 转发链接
+      - [x] 转发音乐
+      - [x] 转发小程序
+      - [x] 转发视频号
+      - [x] 转发引用
+      - [x] 转发合并消息
     - [x] 消息撤回转发目标设置
     - [x] 自定义设置撤回提示短语
 - [x] 允许微信多开 ⚠️请慎用该功能
@@ -265,6 +268,8 @@ macOS 客户端插件
   - [x] 群成员退出监控
   - [x] 设置退群监控短语
   - [x] 退群提示成员可点击
+  - [x] 显示群聊管理员
+  - [x] 显示群聊群主
   - [x] 显示非好友共同群聊
 - [x] 聊天设置
     - [x] 不限制聊天转发数量
@@ -281,10 +286,12 @@ macOS 客户端插件
 - [x] 禁用检测更新
 - [x] 禁用启动检查更新
 - [x] 屏蔽侧边栏
+  - [x] 发现页
   - [x] 游戏中心
   - [x] 搜一搜
   - [x] 视频号
 - [x] 屏蔽发现页
+    - [x] 朋友圈
     - [x] 视频号
     - [x] 搜一搜
     - [x] 游戏
