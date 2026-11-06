@@ -1,8 +1,8 @@
 # X1a0He Plugin 2 for macOS 使用说明
 
 ![platform](https://img.shields.io/badge/platform-macos-blue.svg)
-[![release](https://img.shields.io/badge/release-v2.14.0-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
-![support](https://img.shields.io/badge/support-%204.2.0.17-blue.svg)
+[![release](https://img.shields.io/badge/release-v2.14.1-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
+![support](https://img.shields.io/badge/support-%204.2.0.51-blue.svg)
 
 
 ![](images/WeChatMainMockUp.png)
@@ -10,24 +10,23 @@
 
 > ✅ 已在以下环境中测试通过\
 > 💻 设备: M1 Max macOS 27.3 Golden Gate Beta (26C5035r)\
-> 📒 微信版本: 4.2.0.17(270353)\
+> 📒 微信版本: 4.2.0.51(270387)\
 > ❌ 不支持 Intel 版本\
 > ❌ 不支持 MAS 版本
 > 
-> MD5: 60be34c8608d4ef78bdcb26f7cf39a1f\
-> SHA1: e6b90a900cfb8c340fc3e1d76c8aa0ea652f7a5b\
-> SHA256: a95af0a0b32f971f1dcac2ed0b08e282dd0d6d0765bb2df0cc764180211f486a\
-> MCP SHA256: 74e365f4d2972066abd58296c3f0ed91c50fa934fb1d471ffdcdc1644001628d
+> MD5: 5bfea48d13e7f02a71ed87a84f0e183c\
+> SHA1: bde6af82eeebc8e273cd93f30fecb78cf0a04810\
+> SHA256: 7b1f52b75a5cbd088b8d23d8efdb9efe9e5142c3923925b14ee0fbefc00023dd\
+> MCP SHA256: 9f2161079dbe5c545d0b66d598183b1a216a7b12279a4dd93060bc432fe8665d
 > 
-> 安装包 pkg SHA 256: ee34a83b773cfb6dad6e583a25512faea74e686aeb98a9674e43b5d5518cdea0
+> 安装包 pkg SHA 256: 2441d534791b2e719c0e37c841626648addcf47ef1b1a94ce732871123149123
 
 # 支持版本(点击版本或立即下载即可下载原版)
 
 ## 最新支持版本
 |   版本   | 版本号 | 支持 |  需要插件版本   | 下载原版                                                                                          |
 |:--------:|:------:|:----:|:---------------:|---------------------------------------------------------------------------------------------------|
-| 4.2.0.17 | 270353 |  ✅  | 2.13.1 / 2.14.0 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.17_270353.dmg) |
-| 4.2.0.16 | 270352 |  ✅  | 2.13.1 / 2.14.0 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.16_270352.dmg) |
+| 4.2.0.51 | 270387 |  ✅  | 2.14.1 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.51_270387.dmg) |
 
 ## 历史支持版本
 <details>
@@ -157,6 +156,8 @@
 | 4.2.0.13  | 270349 |  ✅  |     2.13.0      | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.13_270349.dmg)  |
 | 4.2.0.14  | 270350 |  ✅  |     2.13.0      | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.14_270350.dmg)  |
 | 4.2.0.15  | 270351 |  ✅  |     2.13.0      | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.15_270351.dmg)  |
+| 4.2.0.16 | 270352 |  ✅  | 2.13.1 / 2.14.0 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.16_270352.dmg) |
+| 4.2.0.17 | 270353 |  ✅  | 2.13.1 / 2.14.0 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.17_270353.dmg) |
 
 </details>
 
@@ -164,40 +165,10 @@
 
 - **更多更新日志，请查看 [更新日志](change-log.md)**
 
-### 2.14.0 (2026.11.05)
+### 2.14.1 (2026.11.06)
 
-1. feat: 全面开放 MCP 功能，支持微信数据查询、消息收发、朋友圈互动与内容导出
-- 登录后即可在插件菜单中启用
-- 客户端接入：支持 Streamable HTTP 和 stdio 两种连接方式，可在“关于 MCP”中复制连接配置，接入支持 MCP 的客户端
-- 多账号管理：每个账号独立控制 MCP 开关
-- 联系人与会话查询：支持搜索联系人、查询会话列表，按需定位好友和群聊
-- 全局搜索：支持搜索联系人、群聊、公众号、服务号、聊天消息、聊天文件和收藏
-- 聊天记录查询：支持按最近消息条数、时间范围读取记录；关键词搜索可结合会话、发送者和时间条件筛选
-- 媒体内容读取：支持图片、表情预览和视频读取
-- 消息发送：支持向指定会话发送文字、本地图片、视频和文件附件。
-- 聊天记录导出：支持 TXT、JSONL、Markdown 格式，可导出聊天正文及图片、视频、表情文件。
-- 朋友圈浏览：支持读取当前账号可见的朋友圈时间线、指定联系人的相册，以及单条朋友圈的正文、媒体信息、点赞、评论和位置。
-- 朋友圈互动：支持点赞、取消自己的点赞、发表文字评论，以及回复当前帖子中的可见评论。
-- 朋友圈导出：支持按最近条数或时间范围导出可见朋友圈，可包含正文、位置、点赞评论及图片、视频文件。
-
-2. feat: 全面开放自动回复功能，支持私聊与群聊规则、多种触发方式及多份回复轮换
-- 独立运行：自动回复按本地配置的规则执行，无需开启 MCP，也无需接入 AI 模型。
-- 专属与通用回复：可为好友、群聊设置专属回复，也可分别配置私聊和群聊通用回复。
-- 批量配置与复用：支持多个好友或多个群共用一套回复设置，批量套用已有设置，也可将某个对象拆分为独立设置。
-- 规则复制与管理：支持从其他设置克隆规则、调整执行顺序、独立启停，以及撤销支持的移除操作。
-- 多种触发方式：支持收到文字、群聊中被 @、群聊 @所有人，以及被别人拍一拍；可组合选择触发条件。
-- 多种文字匹配：支持任意文字、包含关键词、完全匹配、前缀匹配和正则表达式。
-- 精细匹配条件：支持多个关键词任意命中或全部命中，支持排除词、忽略大小写及首尾空白处理。
-- 多份候选回复：同一规则可配置多份回复，支持随机选择或按顺序轮换；不同对象分别记录轮换位置，每份内容可独立启停。
-- 文字与附件组合：支持文字、图片、视频和文件附件组合回复，按文字、附件列表顺序提交。
-- 自定义回复时间：支持立即回复、固定延迟、随机延迟和模拟人工等待，可分别设置账号默认时间、对象独立时间和规则自定义时间。
-- 回复间隔控制：支持设置同一对象两次回复的最短间隔，避免短时间连续回复。
-- 不回复名单：支持为指定好友或群聊设置不回复名单，优先于普通回复规则生效。
-- 规则优先级：按规则列表顺序判断，每次只执行第一条符合条件的规则，避免一条消息触发多条回复。
-- 回复日志：支持查看触发对象、命中规则、处理结果、异常原因和运行状态，提供搜索、分类筛选与清理功能。
-- 多账号与多开处理：各账号分别保存配置和日志；同账号多开时对消息进行去重，避免重复回复。
-
-3. fix: 保留 macOS 12 兼容，按系统版本启用自动回复
+1. feat: 支持 4.2.0.51(270387)
+2. feat: 新增屏蔽 鼠标 / 触控板长按语音输入
 
 <a href="https://www.star-history.com/?repos=X1a0He%2FX1a0HeWeChatPlugin&type=date&legend=top-left">
  <picture>
@@ -324,6 +295,7 @@
 - [x] 禁用安全模式
 - [x] 禁用检测更新
 - [x] 禁用启动检查更新
+- [x] 屏蔽鼠标 / 触控板长按语音输入
 - [x] 屏蔽侧边栏
     - [x] 发现页
     - [x] 游戏中心
