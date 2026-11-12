@@ -1,5 +1,12 @@
 # 更新日志
 
+### 2.15.0 (2026.11.12)
+
+1. feat: 支持 4.2.0.52(270388)、4.2.0.53(270389)、4.2.0.54(270390)
+2. feat: MCP 新增 `groups.members` 工具，支持完整群成员查询，以及名称、备注、微信号和拼音搜索
+3. feat: MCP 新增 `messages.reply` 文字引用回复；`messages.send_image`、`messages.send_video` 支持图片和视频引用回复；`messages.send_text`、`messages.reply` 支持群聊 @ 成员
+4. feat: MCP 新增 `stickers.list` 收藏表情列表与预览、`stickers.export` 指定表情导出、`stickers.exportAll` 全部收藏表情导出
+
 ### 2.14.1 (2026.11.06)
 
 1. feat: 支持 4.2.0.51(270387)

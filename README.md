@@ -1,8 +1,8 @@
 # X1a0He Plugin 2 for macOS 使用说明
 
 ![platform](https://img.shields.io/badge/platform-macos-blue.svg)
-[![release](https://img.shields.io/badge/release-v2.14.1-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
-![support](https://img.shields.io/badge/support-%204.2.0.51-blue.svg)
+[![release](https://img.shields.io/badge/release-v2.15.0-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
+![support](https://img.shields.io/badge/support-%204.2.0.54-blue.svg)
 
 
 ![](images/WeChatMainMockUp.png)
@@ -10,23 +10,26 @@
 
 > ✅ 已在以下环境中测试通过\
 > 💻 设备: M1 Max macOS 27.3 Golden Gate Beta (26C5035r)\
-> 📒 微信版本: 4.2.0.51(270387)\
+> 📒 微信版本: 4.2.0.54(270390)\
 > ❌ 不支持 Intel 版本\
 > ❌ 不支持 MAS 版本
 > 
-> MD5: 5bfea48d13e7f02a71ed87a84f0e183c\
-> SHA1: bde6af82eeebc8e273cd93f30fecb78cf0a04810\
-> SHA256: 7b1f52b75a5cbd088b8d23d8efdb9efe9e5142c3923925b14ee0fbefc00023dd\
-> MCP SHA256: 9f2161079dbe5c545d0b66d598183b1a216a7b12279a4dd93060bc432fe8665d
+> MD5: 6fc7c005534ac3396d1a0a218dca8831\
+> SHA1: 7eb63a1671e91c68de47609236701999564d6087\
+> SHA256: 7d6c5f76371ed7ce365caeb2a2dfb39d5c40be8250cd8897f8be67c62f66959b\
+> MCP SHA256: 5b8f81333bdc526b9d79e8307e2a4721d50b1aa591ed41177326f07f046db075
 > 
-> 安装包 pkg SHA 256: 2441d534791b2e719c0e37c841626648addcf47ef1b1a94ce732871123149123
+> 安装包 pkg SHA 256: 44d2b073fe8f29d7ad46ee8c740605a7dd1cd6499fd048bc529a45e44fe56ae6
 
 # 支持版本(点击版本或立即下载即可下载原版)
 
 ## 最新支持版本
+
 |   版本   | 版本号 | 支持 |  需要插件版本   | 下载原版                                                                                          |
 |:--------:|:------:|:----:|:---------------:|---------------------------------------------------------------------------------------------------|
-| 4.2.0.51 | 270387 |  ✅  | 2.14.1 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.51_270387.dmg) |
+| 4.2.0.54 | 270390 |  ✅  | 2.15.0 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.54_270390.dmg) |
+| 4.2.0.53 | 270389 |  ✅  | 2.15.0 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.53_270389.dmg) |
+| 4.2.0.52 | 270388 |  ✅  | 2.15.0 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.52_270388.dmg) |
 
 ## 历史支持版本
 <details>
@@ -158,6 +161,7 @@
 | 4.2.0.15  | 270351 |  ✅  |     2.13.0      | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.15_270351.dmg)  |
 | 4.2.0.16 | 270352 |  ✅  | 2.13.1 / 2.14.0 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.16_270352.dmg) |
 | 4.2.0.17 | 270353 |  ✅  | 2.13.1 / 2.14.0 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.17_270353.dmg) |
+| 4.2.0.51 | 270387 |  ✅  | 2.14.1 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.51_270387.dmg) |
 
 </details>
 
@@ -165,10 +169,12 @@
 
 - **更多更新日志，请查看 [更新日志](change-log.md)**
 
-### 2.14.1 (2026.11.06)
+### 2.15.0 (2026.11.12)
 
-1. feat: 支持 4.2.0.51(270387)
-2. feat: 新增屏蔽 鼠标 / 触控板长按语音输入
+1. feat: 支持 4.2.0.52(270388)、4.2.0.53(270389)、4.2.0.54(270390)
+2. feat: MCP 新增 `groups.members` 工具，支持完整群成员查询，以及名称、备注、微信号和拼音搜索
+3. feat: MCP 新增 `messages.reply` 文字引用回复；`messages.send_image`、`messages.send_video` 支持图片和视频引用回复；`messages.send_text`、`messages.reply` 支持群聊 @ 成员
+4. feat: MCP 新增 `stickers.list` 收藏表情列表与预览、`stickers.export` 指定表情导出、`stickers.exportAll` 全部收藏表情导出
 
 <a href="https://www.star-history.com/?repos=X1a0He%2FX1a0HeWeChatPlugin&type=date&legend=top-left">
  <picture>
