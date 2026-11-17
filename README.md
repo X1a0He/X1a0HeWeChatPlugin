@@ -1,7 +1,7 @@
 # X1a0He Plugin 2 for macOS 使用说明
 
 ![platform](https://img.shields.io/badge/platform-macos-blue.svg)
-[![release](https://img.shields.io/badge/release-v2.15.1-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
+[![release](https://img.shields.io/badge/release-v2.15.2-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
 ![support](https://img.shields.io/badge/support-%204.2.0.54-blue.svg)
 
 
@@ -14,12 +14,12 @@
 > ❌ 不支持 Intel 版本\
 > ❌ 不支持 MAS 版本
 > 
-> MD5: c719ff47fc242d7d8da9992cff5ab3fe\
-> SHA1: 02cf3601be301cd742ee9f415d5453dfc222acb1\
-> SHA256: 7a3e5fb0fd652b5ead476e3560a9972982fac6e55cba8b272cb303f6487c6f43\
-> MCP SHA256: e057e5cd02a2b6e914bfd7dbf1c98947f6fa97a27d83508fd3f6c3df03db6bc3
+> MD5: 5b6173f5eff505e297bd3d89cf4bddb8\
+> SHA1: 578f49196835ab7bb22a76ea5f607afcfc18cb8a\
+> SHA256: fdd7368354911229a28d1eb2677c74c7c1e543355ddab53ba1fe4e00cb74bc4e\
+> MCP SHA256: abe82bf28ae020c5b6ed4df01f1cb04afd9b5164046250991b215918722d9410
 > 
-> 安装包 pkg SHA 256: 74cc4cfc88fe1d99a0c1613744d659451c0196ac25bc1a2db121a8a8d74fc0bf
+> 安装包 pkg SHA 256: 17473ee8fd9ff1caf644af89d6b4a60ab7807472cf1344dcccf8a8a4219b11f9
 
 # 支持版本(点击版本或立即下载即可下载原版)
 
@@ -27,9 +27,9 @@
 
 |   版本   | 版本号 | 支持 |  需要插件版本   | 下载原版                                                                                          |
 |:--------:|:------:|:----:|:---------------:|---------------------------------------------------------------------------------------------------|
-| 4.2.0.54 | 270390 |  ✅  | 2.15.0 / 2.15.1 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.54_270390.dmg) |
-| 4.2.0.53 | 270389 |  ✅  | 2.15.0 / 2.15.1 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.53_270389.dmg) |
-| 4.2.0.52 | 270388 |  ✅  | 2.15.0 / 2.15.1 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.52_270388.dmg) |
+| 4.2.0.54 | 270390 |  ✅  | 2.15.2  | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.54_270390.dmg) |
+| 4.2.0.53 | 270389 |  ✅  | 2.15.2  | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.53_270389.dmg) |
+| 4.2.0.52 | 270388 |  ✅  |2.15.2 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.52_270388.dmg) |
 
 ## 历史支持版本
 <details>
@@ -169,14 +169,10 @@
 
 - **更多更新日志，请查看 [更新日志](change-log.md)**
 
-### 2.15.1 (2026.11.16)
+### 2.15.2 (2026.11.17)
 
-1. feat: 自动回复新增规则每日生效时段
-2. feat: 新增“撤回提示”独立开关，与“撤回消息遮罩”至少保留一项，支持仅保留原消息遮罩
-3. feat: 撤回消息遮罩支持背景着色、头像下方 [已撤回]、背景与文字同时显示三种样式，支持自定义颜色及跟随微信主题
-4. feat: 新增“临时隐藏自定义撤回提示”，支持隐藏所有自定义撤回提示，方便部分用户特殊场景使用，取消勾选后恢复显示
-5. feat: 支持删除原消息时联动删除对应的自定义撤回提示
-6. feat: 多开微信在点击通知后不再乱跳窗口
+1. fix: 修复部分多开场景下，点击通知无法精确打开对应账号的问题
+2. feat: 新增 MCP 因权限问题导致异常无法启动的诊断
 
 <a href="https://www.star-history.com/?repos=X1a0He%2FX1a0HeWeChatPlugin&type=date&legend=top-left">
  <picture>
