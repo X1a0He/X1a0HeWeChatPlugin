@@ -1,7 +1,7 @@
 # X1a0He Plugin 2 for macOS 使用说明
 
 ![platform](https://img.shields.io/badge/platform-macos-blue.svg)
-[![release](https://img.shields.io/badge/release-v2.15.2-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
+[![release](https://img.shields.io/badge/release-v2.15.3-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
 ![support](https://img.shields.io/badge/support-%204.2.0.54-blue.svg)
 
 
@@ -14,12 +14,12 @@
 > ❌ 不支持 Intel 版本\
 > ❌ 不支持 MAS 版本
 > 
-> MD5: 5b6173f5eff505e297bd3d89cf4bddb8\
-> SHA1: 578f49196835ab7bb22a76ea5f607afcfc18cb8a\
-> SHA256: fdd7368354911229a28d1eb2677c74c7c1e543355ddab53ba1fe4e00cb74bc4e\
-> MCP SHA256: abe82bf28ae020c5b6ed4df01f1cb04afd9b5164046250991b215918722d9410
+> MD5: a5212fcf9a7584d559e942bf5c02cdd3\
+> SHA1: 950bbcc8262ff9bda6cdbff5fa7957962b6bcb74\
+> SHA256: e88b31230ed7b7bd2b4b51ee8a493e132d8723acd1d134e716f5451d802edd2a\
+> MCP SHA256: 7388933b29955ca5953ba8a95e8f7fa6ebece182e6e31e2803e95eef369e0fc5
 > 
-> 安装包 pkg SHA 256: 17473ee8fd9ff1caf644af89d6b4a60ab7807472cf1344dcccf8a8a4219b11f9
+> 安装包 pkg SHA 256: 469a6b3c63687b5c17d280c79617628b29e894661a681f8dc3f0228d0700a0b9
 
 # 支持版本(点击版本或立即下载即可下载原版)
 
@@ -27,9 +27,9 @@
 
 |   版本   | 版本号 | 支持 |  需要插件版本   | 下载原版                                                                                          |
 |:--------:|:------:|:----:|:---------------:|---------------------------------------------------------------------------------------------------|
-| 4.2.0.54 | 270390 |  ✅  | 2.15.2  | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.54_270390.dmg) |
-| 4.2.0.53 | 270389 |  ✅  | 2.15.2  | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.53_270389.dmg) |
-| 4.2.0.52 | 270388 |  ✅  |2.15.2 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.52_270388.dmg) |
+| 4.2.0.54 | 270390 |  ✅  |  2.15.3   | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.54_270390.dmg) |
+| 4.2.0.53 | 270389 |  ✅  | 2.15.3  | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.53_270389.dmg) |
+| 4.2.0.52 | 270388 |  ✅  |2.15.3 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.52_270388.dmg) |
 
 ## 历史支持版本
 <details>
@@ -169,6 +169,11 @@
 
 - **更多更新日志，请查看 [更新日志](change-log.md)**
 
+
+### 2.15.3 (2026.11.17)
+
+1. fix: 修复了 MCP 调用查询历史消息时出现崩溃的问题
+
 ### 2.15.2 (2026.11.17)
 
 1. fix: 修复部分多开场景下，点击通知无法精确打开对应账号的问题
@@ -187,19 +192,20 @@
 <!-- TOC -->
 * [X1a0He Plugin 2 for macOS 使用说明](#x1a0he-plugin-2-for-macos-使用说明)
 * [支持版本(点击版本或立即下载即可下载原版)](#支持版本点击版本或立即下载即可下载原版)
-  * [最新支持版本](#最新支持版本)
-  * [历史支持版本](#历史支持版本)
+    * [最新支持版本](#最新支持版本)
+    * [历史支持版本](#历史支持版本)
 * [📝更新日志](#更新日志)
-    * [2.14.0 (2026.11.05)](#2140-20261105)
+    * [2.15.3 (2026.11.17)](#2153-20261117)
+    * [2.15.2 (2026.11.17)](#2152-20261117)
 * [目录](#目录)
 * [如何安装](#如何安装)
-  * [步骤](#步骤)
-    * [使用 pkg 一键安装](#使用-pkg-一键安装)
+    * [步骤](#步骤)
+        * [使用 pkg 一键安装](#使用-pkg-一键安装)
 * [FAQ](#faq)
-  * [pkg 出现安装失败？](#pkg-出现安装失败)
-  * [已经完全退出了微信，但还是失败？](#已经完全退出了微信但还是失败)
-  * [会封号吗？](#会封号吗)
-  * [录屏权限未开启？](#录屏权限未开启)
+    * [pkg 出现安装失败？](#pkg-出现安装失败)
+    * [已经完全退出了微信，但还是失败？](#已经完全退出了微信但还是失败)
+    * [会封号吗？](#会封号吗)
+    * [录屏权限未开启？](#录屏权限未开启)
 * [✨功能](#功能)
 * [👨🏻‍💻作者](#作者)
 <!-- TOC -->
