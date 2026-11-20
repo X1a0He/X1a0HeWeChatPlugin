@@ -1,25 +1,25 @@
 # X1a0He Plugin 2 for macOS 使用说明
 
 ![platform](https://img.shields.io/badge/platform-macos-blue.svg)
-[![release](https://img.shields.io/badge/release-v2.15.3-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
-![support](https://img.shields.io/badge/support-%204.2.0.54-blue.svg)
+[![release](https://img.shields.io/badge/release-v2.16.0-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
+![support](https://img.shields.io/badge/support-%204.2.1.4-blue.svg)
 
 
 ![](images/WeChatMainMockUp.png)
 
 
 > ✅ 已在以下环境中测试通过\
-> 💻 设备: M1 Max macOS 27.3 Golden Gate Beta (26C5035r)\
-> 📒 微信版本: 4.2.0.54(270390)\
+> 💻 设备: M1 Max macOS 27.3 Golden Gate Beta (26C5047e)\
+> 📒 微信版本: 4.2.1.4(270596)\
 > ❌ 不支持 Intel 版本\
 > ❌ 不支持 MAS 版本
 > 
-> MD5: a5212fcf9a7584d559e942bf5c02cdd3\
-> SHA1: 950bbcc8262ff9bda6cdbff5fa7957962b6bcb74\
-> SHA256: e88b31230ed7b7bd2b4b51ee8a493e132d8723acd1d134e716f5451d802edd2a\
-> MCP SHA256: 7388933b29955ca5953ba8a95e8f7fa6ebece182e6e31e2803e95eef369e0fc5
+> MD5: b2c87a7fa9115556d7907b95ca1becd1\
+> SHA1: 7321c2483f8665124c4854af0ff6dec5ed840755\
+> SHA256: 2bc36836eea3805f6824556a41d8d4450035b8cb1f8e519ef5cfa550878a1ae2\
+> MCP SHA256: 986d8dd0a0bfe6e55c80288d2220d21a87d43e2aa4f14f849725b327041fc61a
 > 
-> 安装包 pkg SHA 256: 469a6b3c63687b5c17d280c79617628b29e894661a681f8dc3f0228d0700a0b9
+> 安装包 pkg SHA 256: 829f80756fae10199f539f85d8fcc9891b2d0ea0edd9b50e636d51ce032069cc
 
 # 支持版本(点击版本或立即下载即可下载原版)
 
@@ -27,9 +27,8 @@
 
 |   版本   | 版本号 | 支持 |  需要插件版本   | 下载原版                                                                                          |
 |:--------:|:------:|:----:|:---------------:|---------------------------------------------------------------------------------------------------|
-| 4.2.0.54 | 270390 |  ✅  |  2.15.3   | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.54_270390.dmg) |
-| 4.2.0.53 | 270389 |  ✅  | 2.15.3  | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.53_270389.dmg) |
-| 4.2.0.52 | 270388 |  ✅  |2.15.3 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.52_270388.dmg) |
+| 4.2.1.4 | 270596 |  ✅  | 2.16.0 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.1.4_270596.dmg) |
+| 4.2.1.3 | 270595 |  ✅  | 2.16.0 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.1.3_270595.dmg) |
 
 ## 历史支持版本
 <details>
@@ -162,22 +161,21 @@
 | 4.2.0.16 | 270352 |  ✅  | 2.13.1 / 2.14.0 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.16_270352.dmg) |
 | 4.2.0.17 | 270353 |  ✅  | 2.13.1 / 2.14.0 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.17_270353.dmg) |
 | 4.2.0.51 | 270387 |  ✅  | 2.14.1 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.51_270387.dmg) |
+| 4.2.0.52 | 270388 |  ✅  | 2.15.3 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.52_270388.dmg) |
+| 4.2.0.53 | 270389 |  ✅  | 2.15.3 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.53_270389.dmg) |
+| 4.2.0.54 | 270390 |  ✅  | 2.15.3 | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.2.0.54_270390.dmg) |
 
 </details>
 
 # 📝更新日志
 
-- **更多更新日志，请查看 [更新日志](change-log.md)**
+**更多更新日志，请查看 [更新日志](change-log.md)**
 
+## 2.16.0 (2026.11.20)
 
-### 2.15.3 (2026.11.17)
-
-1. fix: 修复了 MCP 调用查询历史消息时出现崩溃的问题
-
-### 2.15.2 (2026.11.17)
-
-1. fix: 修复部分多开场景下，点击通知无法精确打开对应账号的问题
-2. feat: 新增 MCP 因权限问题导致异常无法启动的诊断
+1. feat: 支持 4.2.1.3(270595)、4.2.1.4(270596)
+2. feat: 新增【显示消息时间】功能，位于 聊天设置 - 显示消息时间
+3. fix: 修复在部分场景下，多开窗户同时存在，点击通知跳转异常的问题
 
 <a href="https://www.star-history.com/?repos=X1a0He%2FX1a0HeWeChatPlugin&type=date&legend=top-left">
  <picture>
@@ -195,8 +193,7 @@
     * [最新支持版本](#最新支持版本)
     * [历史支持版本](#历史支持版本)
 * [📝更新日志](#更新日志)
-    * [2.15.3 (2026.11.17)](#2153-20261117)
-    * [2.15.2 (2026.11.17)](#2152-20261117)
+    * [2.16.0 (2026.11.20)](#2160-20261120)
 * [目录](#目录)
 * [如何安装](#如何安装)
     * [步骤](#步骤)
